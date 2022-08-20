@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="designcalc.css">
+    
+</head>
+<body>
+    <div class="mainBody">
+        <div class="calculator">
+            <div class="top">
+                <input type="text" id="screen">
+                <button class="clearBtn" onclick="btnClickclear('')">C</button>
+
+            </div>
+            <div class="butons">
+                
+                <div class="row">
+                    <button onclick="btnClick(7)" class="btnT">7</button>
+                    <button onclick="btnClick('8')" class="btnT">8</button>
+                    <button onclick="btnClick('9')" class="btnT">9</button>
+                    <button onclick="btnOperation('/')" class="btnX">/</button>
+                   
+                    
+
+
+                </div>
+                <div class="row">
+                    <button onclick="btnClick('4')" class="btn">4</button>
+                    <button onclick="btnClick('5')" class="btn">5</button>
+                    <button onclick="btnClick('6')" class="btn">6</button>
+                    <button onclick="btnOperation('*')" class="btnX">X</button>
+                   
+                    
+
+                </div>
+                <div class="row">
+                    <button onclick="btnClick('1')" class="btn">1</button>
+                    <button onclick="btnClick('2')" class="btn">2</button>
+                    <button onclick="btnClick('3')" class="btn">3</button>
+                    <button onclick="btnOperation('-')" class="btnX">-</button>
+                    
+                    
+
+                </div>
+                <div class="row">
+                    <button onclick="btnClick('0')" class="btn">0</button>
+                    <button onclick="btnClick('.')" class="btn">.</button>
+                    <button onclick="equalClick('=')" class="btnE">=</button>
+                    <button onclick="btnOperation('+')" class="btnX">+</button>
+                    
+
+                    
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="calculate.js"></script>
+</body>
+</html>

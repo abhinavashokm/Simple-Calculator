@@ -1,0 +1,92 @@
+body{
+    background: #f0f2f5;
+}
+.calculator{
+    width: 523px;
+    height: 540px;
+    border: solid 1px;
+    margin-left: 380px;
+    margin-top: 65px;
+    border: none;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+box-sizing: border-box;
+background: #27274d;
+  }
+.top{
+    width: 100%;
+height: 101px;
+
+}
+#screen{
+    margin-top: 23px;
+margin-left: 20px;
+width: 364px;
+height: 84px;
+pointer-events: none;
+background: #6a625b;
+font-size: 55px;
+color: snow;
+text-align: right;
+
+}
+.clearBtn{
+    width: 90px;
+height: 87px;
+margin-left: 16px;
+font-size: 20px;
+color: #fff;
+background: red;
+font-size: 59px;
+
+}
+
+.row{
+    padding-left: 23px;
+    padding-top: 20px;
+
+
+
+}
+.btnT{
+    width: 80px;
+    height: 80px;
+    margin-right: 47px;
+    margin-top: 20px;
+    font-size: 38px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.btn{
+    width: 80px;
+height: 80px;
+box-sizing: border-box;
+font-size: 38px;
+margin-right: 47px;
+border: none;
+border-radius: 6px;
+}
+.btnX{
+    width: 80px;
+height: 80px;
+box-sizing: border-box;
+font-size: 38px;
+border: none;
+border-radius: 6px;
+
+}
+.btnE{
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    font-size: 38px;
+    margin-right: 47px;
+    border: none;
+    border-radius: 6px;
+    background: #ffc60d;
+color: #fff;
+}
+.btnE:hover{
+    background: #f8c419ec;
+}
